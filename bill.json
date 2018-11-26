@@ -1,0 +1,236 @@
+{
+   "receipts": {
+      "receipt": {
+         "vendor": {
+            "name": {
+               "recognizedValue": {
+                  "text": "Bedroom Furniture"
+               }
+            },
+            "fullAddress": {
+               "text": {
+                  "__cdata": "Viteri Interiors, LLC\n500 Fabulous Lane\nStyle Village, NY 12012"
+               }
+            },
+            "address": {
+               "text": {
+                  "__cdata": "Viteri Interiors, LLC\n500 Fabulous Lane\nStyle"
+               }
+            },
+            "phone": {
+               "normalizedValue": "9145008760",
+               "recognizedValue": {
+                  "text": "914\n500\n8760"
+               },
+               "_confidence": "66",
+               "_isSuspicious": "true"
+            },
+            "fax": {
+               "normalizedValue": "9145555555",
+               "recognizedValue": {
+                  "text": "(914) 555-5555"
+               }
+            },
+            "purchaseType": "GeneralRetail",
+            "city": {
+               "normalizedValue": "Village",
+               "recognizedValue": {
+                  "text": "Village"
+               }
+            },
+            "zip": {
+               "normalizedValue": "12012",
+               "recognizedValue": {
+                  "text": "12012"
+               },
+               "_confidence": "95",
+               "_isSuspicious": "false"
+            },
+            "administrativeRegion": {
+               "normalizedValue": "NY",
+               "recognizedValue": {
+                  "text": "NY"
+               }
+            },
+            "_confidence": "0.000",
+            "_isSuspicious": "true"
+         },
+         "date": {
+            "normalizedValue": "2012-07-22",
+            "recognizedValue": {
+               "text": "7/22/2012"
+            },
+            "_confidence": "80",
+            "_isSuspicious": "false"
+         },
+         "total": {
+            "normalizedValue": "2700.00",
+            "recognizedValue": {
+               "text": "2,700.00"
+            },
+            "_confidence": "0",
+            "_isSuspicious": "true"
+         },
+         "tax": {
+            "normalizedValue": "311.52",
+            "recognizedValue": {
+               "text": "311.52"
+            },
+            "_total": "false"
+         },
+         "payment": {
+            "value": {
+               "normalizedValue": "2700.00",
+               "recognizedValue": {
+                  "text": "2,700.00"
+               }
+            },
+            "cardNumber": {
+               "normalizedValue": ""
+            },
+            "_type": "Card",
+            "_cardType": "Undefined"
+         },
+         "recognizedItems": {
+            "item": [
+               {
+                  "name": {
+                     "text": "Master Bedroom Bed",
+                     "_confidence": "0",
+                     "_isSuspicious": "true"
+                  },
+                  "count": {
+                     "normalizedValue": "1.000",
+                     "_confidence": "19",
+                     "_isSuspicious": "true"
+                  },
+                  "total": {
+                     "normalizedValue": "2700.00",
+                     "recognizedValue": {
+                        "text": "2,700.00"
+                     },
+                     "_confidence": "76",
+                     "_isSuspicious": "false"
+                  },
+                  "recognizedText": {
+                     "__cdata": "1.00 Each Master Bedroom Bed 2,700.00 2,700.00\nEmpire King Size Bed"
+                  },
+                  "amountUnits": "unit",
+                  "_index": "1"
+               },
+               {
+                  "name": {
+                     "text": "Master Headboard Fabric",
+                     "_confidence": "0",
+                     "_isSuspicious": "true"
+                  },
+                  "count": {
+                     "normalizedValue": "1.000",
+                     "_confidence": "19",
+                     "_isSuspicious": "true"
+                  },
+                  "total": {
+                     "normalizedValue": "675.00",
+                     "recognizedValue": {
+                        "text": "675.00"
+                     },
+                     "_confidence": "89",
+                     "_isSuspicious": "false"
+                  },
+                  "recognizedText": {
+                     "__cdata": "10.00 Yards Master Headboard Fabric 67.50 675.00\nPorno Fabric: Pattern-Solid, Color Concrete Gray"
+                  },
+                  "amountUnits": "unit",
+                  "_index": "2"
+               },
+               {
+                  "name": {
+                     "text": "Master Headboard Nailhead",
+                     "_confidence": "0",
+                     "_isSuspicious": "true"
+                  },
+                  "count": {
+                     "normalizedValue": "1.000",
+                     "_confidence": "19",
+                     "_isSuspicious": "true"
+                  },
+                  "total": {
+                     "normalizedValue": "135.00",
+                     "recognizedValue": {
+                        "text": "135.00"
+                     },
+                     "_confidence": "86",
+                     "_isSuspicious": "false"
+                  },
+                  "recognizedText": {
+                     "__cdata": "1.00 Each Master Headboard Nailhead 135.00 135.00\nStainless Steel Naiheads"
+                  },
+                  "amountUnits": "unit",
+                  "_index": "3"
+               },
+               {
+                  "name": {
+                     "text": "3/21/12 Site Measurement",
+                     "_confidence": "0",
+                     "_isSuspicious": "true"
+                  },
+                  "count": {
+                     "normalizedValue": "1.000",
+                     "_confidence": "19",
+                     "_isSuspicious": "true"
+                  },
+                  "total": {
+                     "normalizedValue": "405.00",
+                     "recognizedValue": {
+                        "text": "405.00"
+                     },
+                     "_confidence": "86",
+                     "_isSuspicious": "false"
+                  },
+                  "recognizedText": {
+                     "__cdata": "2.00 Hours 3/21/12 Site Measurement 202.50 405.00"
+                  },
+                  "amountUnits": "unit",
+                  "_index": "4"
+               },
+               {
+                  "name": {
+                     "text": "3/25/12 Sourcing for Master Bedroom Furniture",
+                     "_confidence": "0",
+                     "_isSuspicious": "true"
+                  },
+                  "count": {
+                     "normalizedValue": "1.000",
+                     "_confidence": "19",
+                     "_isSuspicious": "true"
+                  },
+                  "total": {
+                     "normalizedValue": "607.50",
+                     "recognizedValue": {
+                        "text": "607.50"
+                     },
+                     "_confidence": "86",
+                     "_isSuspicious": "false"
+                  },
+                  "recognizedText": {
+                     "__cdata": "3.00 Hours 3/25/12 Sourcing for Master Bedroom Furniture 202.50 607.50"
+                  },
+                  "amountUnits": "unit",
+                  "_index": "5"
+               }
+            ],
+            "_count": "5"
+         },
+         "country": {
+            "normalizedValue": "USA"
+         },
+         "recognizedText": {
+            "__cdata": "Viteri Interiors, LLC                                                                                                               \n500 Fabulous Lane                                                                                                                   \nStyle Village, NY 12012                                                                                                             \nPhone: (914) 500-8760                                                                                                               \nFax: (914) 555-5555                                                                                                                 \nEmail: vsm@studiovsm.com                                                                                                            \nWebsite: www.viteristylemanagement.com                                                                                              \nInvoice                                                                                                                             \nn + • • w i -r                                                                                 Invoice#:                     300001 \nPatricia and Luis Trump                                                                                                             \ncnn T                                                                                Invoice Date:               3/21/2012          \n500 Trump Way                                                                Printed Date:              7/22/2012                   \nTrump Village, NY 12012                                                        Proposal#:                100002                     \nTrump Master Bedroom Project                                                                                                        \nQuantity Unit Description                                                                              Unit Price        Total Price\nMaster Bedroom                                                                                                                      \n1.00       Each Master Bedroom Bed                                                        2,700.00        2,700.00                  \nEmpire King Size Bed                                                                                                                \n10.00      Yards   Master Headboard Fabric                                                         67.50          675.00            \nPorno Fabric: Pattern-Solid, Color Concrete Gray                                                                                    \n1.00       Each   Master Headboard Nailhead                                                    135.00          135.00               \nStainless Steel Naiheads                                                                                                            \nTime Billing                                                                                                                        \n2.00       Hours  3/21/12 Site Measurement                                                     202.50          405.00               \n3.00       Hours  3/25/12 Sourcing for Master Bedroom Furniture                                    202.50          607.50           \nSub Total:        4,522.50                                                                                                          \nDelivery:           200.00                                                                                                          \nFreight:            35.00                                                                                                           \nInstallation:             75.00                                                                                                     \nSales Tax:          311.52                                                                                                          \nTotal:         5,144.02                                                                                                             \nPayment Applied:            0.00                                                                                                    \nBalance Due:        5,144.02                                                                                                        \nPlease sign and date. You may make your payment to Viteri Interiors, LLC. Thank you!                                                \n"
+         },
+         "_currency": "USD",
+         "_rotation": "RT_NoRotation"
+      },
+      "_xmlns": "http://www.abbyy.com/ReceiptCaptureSDK_xml/ReceiptCapture-1.1.xsd",
+      "_count": "1"
+   }
+}
