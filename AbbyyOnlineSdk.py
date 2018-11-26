@@ -2,6 +2,7 @@
 
 # Usage: process.py <input file> <output file> [-l <Language>] [-pdf|-txt|-rtf|-docx|-xml]
 
+
 import shutil
 
 import xml.dom.minidom
@@ -39,8 +40,8 @@ class AbbyyOnlineSdk:
 	# register at http://cloud.ocrsdk.com/Account/Register
 	# More info on getting your application id and password at
 	# http://ocrsdk.com/documentation/faq/#faq3
-	ApplicationId = "user"
-	Password = "password"
+	ApplicationId = "CelebalOCR "
+	Password = "9kf21g7ac+ShVZOLFE2ERvMe"
 	Proxies = {}
 
 	def process_image(self, file_path, settings):
@@ -48,13 +49,18 @@ class AbbyyOnlineSdk:
 			"language": settings.Language,
 			"exportFormat": settings.OutputFormat
 		}
-		request_url = self.get_request_url("processImage")
+		request_url = self.get_request_url("processReceipt")
+		#request_url = self.get_request_url("processImage")
+
 
 		with open(file_path, 'rb') as image_file:
 			image_data = image_file.read()
 
-		response = requests.post(request_url, data=image_data, params=url_params,
+		response = requests.post(request_url, data=image_data,
 								 auth=(self.ApplicationId, self.Password), proxies=self.Proxies)
+
+		#response = requests.post(request_url, data=image_data,params=url_params,auth=(self.ApplicationId, self.Password), proxies=self.Proxies)
+		
 
 		# Any response other than HTTP 200 means error - in this case exception will be thrown
 		response.raise_for_status()
@@ -98,5 +104,7 @@ class AbbyyOnlineSdk:
 			task.DownloadUrl = task_node.getAttribute("resultUrl")
 		return task
 
+	def get_request_url(self, url):
+		return self.ServerUrl.strip('/') + '/' + url.strip('/')
 	def get_request_url(self, url):
 		return self.ServerUrl.strip('/') + '/' + url.strip('/')
